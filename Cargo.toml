@@ -1,0 +1,23 @@
+[package]
+name = "eip-2015"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+alloy = { version = "0.1", features = [
+    "network",
+    "providers",
+    "transports",
+    "transport-http",
+    "rpc",
+    "rpc-types",
+    "rpc-client",
+    "contract",
+    "sol-types",
+] }
+alloy-chains = { git = "https://github.com/alloy-rs/chains" }
+
+tokio = { version = "1.38.0", features = ["full"] }
+
+)

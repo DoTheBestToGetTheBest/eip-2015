@@ -20,4 +20,4 @@ alloy-chains = { git = "https://github.com/alloy-rs/chains" }
 
 tokio = { version = "1.38.0", features = ["full"] }
 
-)
+
